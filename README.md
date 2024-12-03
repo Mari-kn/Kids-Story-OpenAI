@@ -18,7 +18,7 @@ This project is a web application that generates short, creative stories for kid
 
 ## Installation
 
-1. Clone the repository:
+###1. Clone the repository:
    ```bash
    git clone https://github.com/your-username/kids-story-generator.git
    cd kids-story-generator
@@ -30,22 +30,16 @@ This project is a web application that generates short, creative stories for kid
 cd week-2/js-project-1-poetry-vocalizer
 ```
 
-- Install dependencies
-
-```
+### 1. Install dependencies:
+```bash
 npm install
 ```
-
-- Create a .env file then add your OpenAI API key and ElevenLabs API key:
-
+### 2. Create a .env file in the project root and add your API keys:
 ```
-OPENAI_API_KEY= your_openai_api_key
-ELEVENLABS_API_KEY = your_elevenlabs_api_key
+OPENAI_API_KEY=your_openai_api_key
+ELEVENLABS_API_KEY=your_elevenlabs_api_key
 ```
-
-- Go to [elevenlabs voice lab](https://elevenlabs.io/app/voice-lab), upload sylviaplath.mp3 (or any other audio file of your choice) and obtain VOICE_ID. Replace the VOICE_ID in app.js with the one you obtained.
-- Start the server:
-
+### 3. Start the server:
 ```
-node app.js
+npm start
 ```
