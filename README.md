@@ -1,20 +1,27 @@
-## Poem Generation and Voice Over Application
+# Kids Story Generator 🎨📖🎤
 
-This is a Node.js application that generates a poem using OpenAI gpt-4o-mini model and performs a voice-over of the generated poem using the ElevenLabs text-to-speech API.
+This project is a web application that generates short, creative stories for kids aged 2-6, converts the story into voice-over, and creates an illustration based on the story. It uses the OpenAI GPT, ElevenLabs API, and OpenAI Image API.
 
-### Features
+## Features
+- **Story Generation**: Provide 5 words, and the app will generate a short story incorporating them.
+- **Voice-Over**: Converts the generated story into a realistic voice-over.
+- **Image Generation**: Generates a children's storybook-style illustration based on the story.
 
-- Generate a poem based on 5 user-provided words.
-- Perform a voice-over of the generated poem using ElevenLabs.
-- Play the generated voice-over in the browser.
+## Technologies Used
+- [Node.js](https://nodejs.org/) with [Express](https://expressjs.com/)
+- [OpenAI GPT API](https://platform.openai.com/docs/)
+- [ElevenLabs Text-to-Speech API](https://elevenlabs.io/)
+- [OpenAI Image Generation API](https://platform.openai.com/docs/api-reference/images)
+- [dotenv](https://www.npmjs.com/package/dotenv) for environment variable management
+- [axios](https://www.npmjs.com/package/axios) for HTTP requests
+- [fs](https://nodejs.org/api/fs.html) for file system operations
 
-### Installation
+## Installation
 
-- Clone the repository:
-
-```
-git clone https://github.com/WTMBerlin/generative-ai-course.git
-
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/kids-story-generator.git
+   cd kids-story-generator
 ```
 
 - Go to the project directory:
